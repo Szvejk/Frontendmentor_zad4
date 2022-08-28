@@ -37,6 +37,12 @@ main {
 	gap: 40px;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(6, 1fr);
+	position: relative;
+	img {
+	margin-top: 6vh;
+	margin-left: 35vh;
+
+	}
     
 	.supervisor {
 		background-color: $first-color;
@@ -48,6 +54,8 @@ main {
 		border-radius: 10px;
 		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 		padding: 30px;
+
+		
 	}
 	.team-builder {
 		background-color: $first-color;

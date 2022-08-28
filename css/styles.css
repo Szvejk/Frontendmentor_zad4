@@ -47,6 +47,11 @@ main {
   gap: 40px;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  position: relative;
+}
+main img {
+  margin-top: 6vh;
+  margin-left: 35vh;
 }
 main .supervisor {
   background-color: white;
